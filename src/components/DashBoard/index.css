@@ -1,0 +1,31 @@
+.layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.noUserSelect{
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+html {
+  overflow: hidden;
+  background: rgb(206, 206, 236);
+  /* background: rgb(7, 7, 12); */
+}
+.clickModal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  z-index: -1;
+}
+#container {
+  
+}

@@ -1,0 +1,12 @@
+.editPannel{
+    width: 332px;
+    min-height: 100vh;
+    height: 100%;
+    z-index: 90;
+    background: #6a8cd1;
+    position: relative;
+    transition: width .25s ease-in-out;
+    overflow: hidden;
+    box-shadow: -1px 0 #000;
+    flex-shrink: 0;
+}

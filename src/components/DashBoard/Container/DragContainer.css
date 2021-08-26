@@ -1,0 +1,71 @@
+.dashboardContainer {
+  border: 1px solid red !important;
+}
+
+.hoverBorderLine:hover {
+  border: 1px solid blue;
+  cursor: move;
+}
+
+.active {
+  border: 2px solid yellow;
+}
+
+.pointer {
+  background: red;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50%;
+}
+.scaleTopLeft {
+  top: -3px;
+  left: -3px;
+  cursor: nw-resize;
+}
+
+.scaleTopCenter {
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: s-resize;
+}
+
+.scaleTopRight {
+  top: -3px;
+  right: -3px;
+  cursor: ne-resize;
+}
+
+.scaleCenterLeft {
+  top: 50%;
+  left: -3px;
+  transform: translateY(-50%);
+  cursor: w-resize;
+}
+
+.scaleCenterRight {
+  top: 50%;
+  right: -3px;
+  transform: translateY(-50%);
+  cursor: w-resize;
+}
+
+.scaleBottomRight {
+  bottom: -3px;
+  right: -3px;
+  cursor: nw-resize;
+}
+
+.scaleBottomCenter {
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: s-resize;
+}
+
+.scaleBottomLeft {
+  bottom: -3px;
+  left: -3px;
+  cursor: ne-resize;
+}
